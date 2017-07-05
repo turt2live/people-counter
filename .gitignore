@@ -1,3 +1,6 @@
+/.idea
+/web-dist
+
 # Logs
 logs
 *.log

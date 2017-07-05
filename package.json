@@ -1,0 +1,81 @@
+{
+  "name": "people-counter",
+  "version": "1.0.0",
+  "description": "Uses Camlytics to count the number of people in some areas",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turt2live/people-counter.git"
+  },
+  "keywords": [
+    "people",
+    "counter",
+    "camlytics",
+    "api",
+    "web"
+  ],
+  "author": "Travis Ralston <travis.nathaniel.ralston@gmail.com> (http://travisralston.me)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/turt2live/people-counter/issues"
+  },
+  "homepage": "https://github.com/turt2live/people-counter#readme",
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "config": "^1.26.1",
+    "js-yaml": "^3.8.4",
+    "moment": "^2.18.1",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "@angular/common": "^4.2.5",
+    "@angular/compiler": "^4.2.5",
+    "@angular/core": "^4.2.5",
+    "@angular/forms": "^4.2.5",
+    "@angular/http": "^4.2.5",
+    "@angular/platform-browser": "^4.2.5",
+    "@angular/platform-browser-dynamic": "^4.2.5",
+    "@angular/router": "^4.2.5",
+    "@angularclass/hmr": "^2.1.1",
+    "@angularclass/hmr-loader": "^3.0.2",
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.27",
+    "@types/node": "^8.0.7",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^3.2.1",
+    "codelyzer": "^3.1.2",
+    "copy-webpack-plugin": "^4.0.1",
+    "core-js": "^2.4.1",
+    "css-loader": "^0.28.4",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.29.0",
+    "jquery": "^3.2.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.3",
+    "postcss-cssnext": "^2.11.0",
+    "postcss-import": "^10.0.0",
+    "postcss-loader": "^2.0.6",
+    "postcss-scss": "^1.0.2",
+    "raw-loader": "^0.5.1",
+    "reflect-metadata": "^0.1.10",
+    "rimraf": "^2.6.1",
+    "rxjs": "^5.4.2",
+    "sass-loader": "^6.0.6",
+    "shelljs": "^0.7.8",
+    "style-loader": "^0.18.2",
+    "ts-helpers": "^1.1.2",
+    "tslint": "^5.4.3",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.4.1",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0",
+    "zone.js": "^0.8.12"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --port 8080",
+    "build": "rimraf web-dist && webpack --progress --profile --bail"
+  }
+}
