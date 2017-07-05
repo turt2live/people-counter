@@ -1,7 +1,6 @@
 # people-counter
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/turt2live/people-counter.svg)](https://greenkeeper.io/)
-
 [![TravisCI badge](https://travis-ci.org/turt2live/people-counter.svg?branch=master)](https://travis-ci.org/turt2live/people-counter)
 
 Uses Camlytics to show how many people are in certain areas.
